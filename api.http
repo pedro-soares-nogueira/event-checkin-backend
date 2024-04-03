@@ -1,0 +1,19 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "Event name 33932",
+    "details": "Event details",
+    "maximumAttendees": 10
+}
+
+
+### 
+
+POST http://localhost:3333/events/6cb25883-4bbf-49dc-a0b1-9028e6663a0b/attendees
+Content-Type: application/json
+
+{
+    "name": "Pedro Soares",
+    "email": "pedro3@gmail.com"
+}
